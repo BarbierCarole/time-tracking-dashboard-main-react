@@ -1,2 +1,2 @@
-# time-tricking-dashboard-main-react
+# time-tracking-dashboard-main-react
 challenge front avec reactjs
