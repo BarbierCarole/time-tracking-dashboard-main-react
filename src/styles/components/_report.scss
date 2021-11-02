@@ -1,0 +1,47 @@
+@mixin report ($darkBlue, $blue ,$padding) { 
+
+    .report {
+    
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        background-color: $darkBlue;
+        border-radius: 15px;
+
+        .header {
+            width: 250px;
+            height: 66%;
+            background-color: $blue;
+            border-radius: 15px;
+            padding: $padding;
+
+            .profil-img {
+                border-radius: 40px;
+                border: 3px solid #fff;
+                width: 80px;
+                height: 80px;   
+                                
+            }
+
+            .profil-name {
+                margin-top: 50px;
+                span:first-child {
+                
+                    
+                }
+                span:last-child {
+                    
+                }
+            }
+            
+        }
+
+        .content {
+
+        height: 34%; 
+        padding: $padding;               
+            
+        }
+        
+    }
+}
