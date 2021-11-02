@@ -1,0 +1,19 @@
+
+@import './settings';
+@import './components/report';
+@import './components/boxes';
+
+
+.main {
+    display: flex;  
+    max-width: 1200px;
+    gap: 30px;
+
+    @include report($darkBlue, $blue ,$padding);
+    @include boxes($darkBlue, $corail, $softBlue, $hightRed, $limeGreen, $violet, $padding);
+    
+    
+}
+  
+
+

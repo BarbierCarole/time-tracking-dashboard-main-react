@@ -1,0 +1,125 @@
+
+
+@mixin boxes($darkBlue, $corail, $softBlue, $hightRed, $limeGreen, $violet, $padding) {
+
+    .boxes {
+
+        display: flex;
+        flex-direction: row;
+        width: 950px;
+        gap: 30px;
+        flex-wrap: wrap;
+        
+        & > div {
+            border-radius:  15px 15px 50px 50px ;
+        }
+    
+        .header {
+            height: 45px;
+            width: 250px; 
+        }
+    
+        .content {
+            height: 190px;
+            width: 250px;
+            border-radius: 15px;
+            background-color: $darkBlue;
+            padding: $padding;
+        }
+    
+        .work {
+            background-color: $corail ;
+            border-radius:  20px 20px 50px 50px ;
+            .header {
+                
+                background: url('../../images/icon-work.svg');
+                background-size: 79px 79px;
+                background-position-x: 160px;
+                background-repeat: no-repeat;
+                background-position-y: -10px;
+    
+            }
+            .content {
+                
+            }
+    
+        }
+    
+        .play {
+            background-color: $softBlue;
+            .header {
+                background: url('../../images/icon-play.svg');
+                background-size: 79px 79px;
+                background-position-x: 160px;
+                background-repeat: no-repeat;
+                background-position-y: -10px; 
+                
+            }
+            .content {
+    
+            }
+        }
+    
+        .study {
+            
+            background-color: $hightRed ;
+            .header {
+                background: url('../../images/icon-study.svg');
+                background-size: 79px 79px;
+                background-position-x: 160px;
+                background-repeat: no-repeat;
+                background-position-y: -10px; 
+    
+            }
+            .content {
+    
+            }
+        }
+    
+        .exercise {
+            background-color: $limeGreen;
+            .header {
+                background: url('../../images/icon-exercise.svg');
+                background-size: 79px 79px;
+                background-position-x: 160px;
+                background-repeat: no-repeat;
+                background-position-y: -10px;   
+            }
+            .content {
+    
+            }
+        }
+    
+        .social {
+            background-color: $violet;
+    
+            .header {
+                background: url('../../images/icon-social.svg');
+                background-size: 79px 79px;
+                background-position-x: 160px;
+                background-repeat: no-repeat;
+                background-position-y: -10px; 
+    
+            }
+            .content {
+    
+            }
+        }
+    
+        .selfcare {
+            background-color: $softOrange;
+    
+            .header {
+                background: url('../../images/icon-self-care.svg');
+                background-size: 79px 79px;
+                background-position-x: 160px;
+                background-repeat: no-repeat;
+                background-position-y: -10px; 
+    
+            }
+            .content {
+    
+            }
+        }
+    }
+}
