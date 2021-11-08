@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+/*color primary */
+/* work*/
+/* play*/
+/* study */
+/* exercise */
+/* social */
+/* selfcare */
+/* Neutral */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f1424;
+  height: 100vh;
+  width: 100vw;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+.main {
+  display: flex;
+  max-width: 1200px;
+  gap: 30px;
+}
+.main .report {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #1c1f4a;
+  border-radius: 15px;
+}
+.main .report .header {
+  width: 250px;
+  height: 70%;
+  background-color: #5847eb;
+  border-radius: 15px;
+  padding: 35px;
+}
+.main .report .header .profil-img {
+  border-radius: 40px;
+  border: 3px solid #fff;
+  width: 80px;
+  height: 80px;
+}
+.main .report .header .profil-name {
+  margin-top: 50px;
+}
+.main .report .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 30%;
+  padding: 0 35px 10px 35px;
+}
+.main .boxes {
+  display: flex;
+  flex-direction: row;
+  width: 950px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.main .boxes > div {
+  border-radius: 15px 15px 50px 50px;
+}
+.main .boxes .header {
+  height: 45px;
+  width: 250px;
+}
+.main .boxes .content {
+  height: 190px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: #1c1f4a;
+  padding: 35px;
+}
+.main .boxes .work {
+  background-color: #ff8c66;
+  border-radius: 20px 20px 50px 50px;
+}
+.main .boxes .work .header {
+  background: url("/src/images/icon-work.svg");
+  background-size: 79px 79px;
+  background-position-x: 160px;
+  background-repeat: no-repeat;
+  background-position-y: -10px;
+}
+.main .boxes .work .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .boxes .work .content .content-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main .boxes .work .content .content-detail h2 {
+  margin-top: 15px;
+}
+.main .boxes .play {
+  background-color: #56c2e6;
+  border-radius: 20px 20px 50px 50px;
+}
+.main .boxes .play .header {
+  background: url("/src/images/icon-play.svg");
+  background-size: 79px 79px;
+  background-position-x: 160px;
+  background-repeat: no-repeat;
+  background-position-y: -10px;
+}
+.main .boxes .play .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .boxes .play .content .content-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main .boxes .play .content .content-detail h2 {
+  margin-top: 15px;
+}
+.main .boxes .study {
+  background-color: #ff5c7c;
+  border-radius: 20px 20px 50px 50px;
+}
+.main .boxes .study .header {
+  background: url("/src/images/icon-study.svg");
+  background-size: 79px 79px;
+  background-position-x: 160px;
+  background-repeat: no-repeat;
+  background-position-y: -10px;
+}
+.main .boxes .study .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .boxes .study .content .content-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main .boxes .study .content .content-detail h2 {
+  margin-top: 15px;
+}
+.main .boxes .exercise {
+  background-color: #4acf81;
+  border-radius: 20px 20px 50px 50px;
+}
+.main .boxes .exercise .header {
+  background: url("/src/images/icon-exercise.svg");
+  background-size: 79px 79px;
+  background-position-x: 160px;
+  background-repeat: no-repeat;
+  background-position-y: -10px;
+}
+.main .boxes .exercise .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .boxes .exercise .content .content-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main .boxes .exercise .content .content-detail h2 {
+  margin-top: 15px;
+}
+.main .boxes .social {
+  background-color: #7536d3;
+  border-radius: 20px 20px 50px 50px;
+}
+.main .boxes .social .header {
+  background: url("/src/images/icon-social.svg");
+  background-size: 79px 79px;
+  background-position-x: 160px;
+  background-repeat: no-repeat;
+  background-position-y: -10px;
+}
+.main .boxes .social .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .boxes .social .content .content-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main .boxes .social .content .content-detail h2 {
+  margin-top: 15px;
+}
+.main .boxes .selfcare {
+  background-color: #f1c65b;
+  border-radius: 20px 20px 50px 50px;
+}
+.main .boxes .selfcare .header {
+  background: url("/src/images/icon-self-care.svg");
+  background-size: 79px 79px;
+  background-position-x: 160px;
+  background-repeat: no-repeat;
+  background-position-y: -10px;
+}
+.main .boxes .selfcare .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .boxes .selfcare .content .content-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main .boxes .selfcare .content .content-detail h2 {
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=index.css.map */

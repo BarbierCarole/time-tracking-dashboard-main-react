@@ -11,9 +11,9 @@ const Report = () => {
             </div>            
           </div>
           <div className="content">
-            Daily
-            Weekly
-            Monthly  
+            <p class="dayly">Daily</p>
+            <p class="weekly">Weekly</p>
+            <p class="monthly">Monthly</p>  
           </div>
         </div>
     );
