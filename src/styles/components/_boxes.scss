@@ -25,6 +25,16 @@
             border-radius: 15px;
             background-color: $darkBlue;
             padding: $padding;
+            svg { 
+                fill:#BBC0FF;
+                fill-rule:evenodd;
+            }
+            svg:hover {
+                fill: #fff;
+                fill-rule: evenodd;
+                cursor: pointer;
+            }
+            
         }
     
         .work {
@@ -48,6 +58,8 @@
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
+
+                    
                 }
 
                 .content-detail {

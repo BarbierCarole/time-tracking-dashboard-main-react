@@ -1,14 +1,29 @@
 import React, {useState} from 'react';
 import suspendingPoints from './../images/icon-ellipsis.svg';
 
-const Boxe = (props) => {
-    console.log('props',props);
-    
-    const [box, setBox] = useState(props.data);
-    console.log('box :',box);
+const Boxe = ({data, option, setOption}) => {
+  
+    console.log("data :",data);
+    const [box, setBox] = useState(data);
+    let frequence;
 
+    switch(option) {
+        case 'daily':
+            frequence = "day";
+            break;
+        case 'weekly':
+            frequence = "week";
+            break;
+        case 'monthly':
+            frequence = "month";
+            break;
+        default:
+            frequence = "week";
+    }
+    
     return (
-        <div className={box.title.toLowerCase()}>
+        <div className={box.title.toLowerCase().replace(/ /g, "")}>
+        {/* replace(/ /g, "") sert à effacer les espaces */}
         {/* <div className="work"> */}
             <div className="header">
                 {/* <img src={work} className="icon" alt="icone" />  */}
@@ -17,21 +32,20 @@ const Boxe = (props) => {
             <div className="content">
                 <div className="content-title">
                     <span>{box.title}</span>
-                    <span><img src={suspendingPoints} alt="..."/> </span>
+                    <span>
+                        {/* <img src={suspendingPoints} alt="..."/>  */}
+                        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" />
+                        </svg>
+                    </span>
                 </div>
                 <div className="content-detail">
-                    <div class="daily">
-                        <h3>{box.timeframes.daily.current}</h3> {/* <!-- daily--> */}
-                        <h2> Last day - 7hrs </h2>{/* <!-- daily--> */}
+
+                    <div className={option}>
+                        <h3>{box.timeframes[option].current}hrs</h3> {/* <!-- daily--> */}
+                        <h2> Last {frequence}  - {box.timeframes[option].previous}hrs </h2>{/* <!-- daily--> */}
                     </div>
-                    <div class="weekly">
-                        <h3>5hrs</h3> {/* <!-- daily--> */}
-                        <h2> Last Week - 21hrs </h2>{/* <!-- daily--> */}
-                    </div> 
-                    <div class="monthly">
-                        <h3>55hrs</h3> {/* <!-- daily--> */}
-                        <h2> Last month - 97hrs </h2>{/* <!-- daily--> */}
-                    </div>   
+                     
                 </div>
             </div>            
         </div>

@@ -37,6 +37,20 @@ h3 {
   font-weight: 300;
 }
 
+p {
+  color: rgba(255, 255, 255, 0.6);
+}
+p:hover, p.active {
+  color: #fff;
+}
+
+li {
+  color: rgba(255, 255, 255, 0.6);
+}
+li:hover, li.active {
+  color: #fff;
+}
+
 .main {
   display: flex;
   max-width: 1200px;
@@ -66,12 +80,18 @@ h3 {
   margin-top: 50px;
 }
 .main .report .content {
+  height: 30%;
+}
+.main .report .content ul {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  height: 30%;
   padding: 0 35px 10px 35px;
+  height: 100%;
+}
+.main .report .content ul li {
+  cursor: pointer;
 }
 .main .boxes {
   display: flex;
@@ -93,6 +113,15 @@ h3 {
   border-radius: 15px;
   background-color: #1c1f4a;
   padding: 35px;
+}
+.main .boxes .content svg {
+  fill: #BBC0FF;
+  fill-rule: evenodd;
+}
+.main .boxes .content svg:hover {
+  fill: #fff;
+  fill-rule: evenodd;
+  cursor: pointer;
 }
 .main .boxes .work {
   background-color: #ff8c66;

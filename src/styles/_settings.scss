@@ -17,6 +17,8 @@ $darkBlue: hsl(235, 46%, 20%);
 $desaturatedBlue: hsl(235, 45%, 61%);
 $paleBlue: hsl(236, 100%, 87%);
 
+$whiteBlue: rgba(255, 255, 255, 0.6);
+
 $padding: 35px;
 
 body {
@@ -40,7 +42,7 @@ h1 {
 
 h2 {
     font-size: .8em;
-    color: rgba(255,255,255,.6);
+    color: $whiteBlue;
     line-height: 1.2em;
 }
 
@@ -51,5 +53,16 @@ h3 {
 }
 
 p {
-
+    color: $whiteBlue;
+    &:hover, &.active {
+        color: #fff;
+    }
 }
+
+li {
+    color: $whiteBlue;
+    &:hover, &.active {
+        color: #fff;
+    }
+}
+
