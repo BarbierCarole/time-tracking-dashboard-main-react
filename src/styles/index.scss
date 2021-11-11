@@ -1,0 +1,19 @@
+
+@import './_settings.scss';
+@import './components/_report.scss';
+@import './components/_boxes.scss';
+
+
+.main {
+    display: flex;  
+    max-width: 1200px;
+    gap: 30px;
+
+    @include report($darkBlue, $blue ,$padding);
+    @include boxes($darkBlue, $corail, $softBlue, $hightRed, $limeGreen, $violet, $padding);
+    
+    
+}
+  
+
+
