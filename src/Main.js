@@ -1,14 +1,15 @@
+import { useState } from "react";
 import Boxes from "./components/Boxes";
 import Report from "./components/Report";
-
-
-
 const Main = () => {
+
+    const [option, setOption] = useState(["weekly"]);
+    console.log("option :", option);   
 
     return (
         <div className="main">
-            <Report/>
-            <Boxes/>
+            <Report  option={option} setOption={setOption} />
+            <Boxes   option={option} setOption={setOption} />
         </div>
     )
 }

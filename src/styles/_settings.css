@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+/*color primary */
+/* work*/
+/* play*/
+/* study */
+/* exercise */
+/* social */
+/* selfcare */
+/* Neutral */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f1424;
+  height: 100vh;
+  width: 100vw;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.6);
+}
+p:hover, p.active {
+  color: #fff;
+}
+
+li {
+  color: rgba(255, 255, 255, 0.6);
+}
+li:hover, li.active {
+  color: #fff;
+}
+
+/*# sourceMappingURL=_settings.css.map */

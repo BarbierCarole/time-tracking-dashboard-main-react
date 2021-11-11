@@ -25,6 +25,16 @@
             border-radius: 15px;
             background-color: $darkBlue;
             padding: $padding;
+            svg { 
+                fill:#BBC0FF;
+                fill-rule:evenodd;
+            }
+            svg:hover {
+                fill: #fff;
+                fill-rule: evenodd;
+                cursor: pointer;
+            }
+            
         }
     
         .work {
@@ -32,7 +42,7 @@
             border-radius:  20px 20px 50px 50px ;
             .header {
                 
-                background: url('../../images/icon-work.svg');
+                background: url('/src/images/icon-work.svg');
                 background-size: 79px 79px;
                 background-position-x: 160px;
                 background-repeat: no-repeat;
@@ -40,15 +50,32 @@
     
             }
             .content {
-                
-            }
-    
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .content-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    
+                }
+
+                .content-detail {
+                  
+                    h2 {
+                        margin-top: 15px;
+                    }
+                }
+            }    
         }
     
         .play {
             background-color: $softBlue;
+            border-radius:  20px 20px 50px 50px ;
             .header {
-                background: url('../../images/icon-play.svg');
+                background: url('/src/images/icon-play.svg');
                 background-size: 79px 79px;
                 background-position-x: 160px;
                 background-repeat: no-repeat;
@@ -56,15 +83,31 @@
                 
             }
             .content {
-    
-            }
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .content-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+
+                .content-detail {
+                  
+                    h2 {
+                        margin-top: 15px;
+                    }
+                }
+            }    
         }
     
         .study {
             
             background-color: $hightRed ;
+            border-radius:  20px 20px 50px 50px ;
             .header {
-                background: url('../../images/icon-study.svg');
+                background: url('/src/images/icon-study.svg');
                 background-size: 79px 79px;
                 background-position-x: 160px;
                 background-repeat: no-repeat;
@@ -72,29 +115,61 @@
     
             }
             .content {
-    
-            }
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .content-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+
+                .content-detail {
+                  
+                    h2 {
+                        margin-top: 15px;
+                    }
+                }
+            }    
         }
     
         .exercise {
             background-color: $limeGreen;
+            border-radius:  20px 20px 50px 50px ;
             .header {
-                background: url('../../images/icon-exercise.svg');
+                background: url('/src/images/icon-exercise.svg');
                 background-size: 79px 79px;
                 background-position-x: 160px;
                 background-repeat: no-repeat;
                 background-position-y: -10px;   
             }
             .content {
-    
-            }
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .content-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+
+                .content-detail {
+                  
+                    h2 {
+                        margin-top: 15px;
+                    }
+                }
+            }    
         }
     
         .social {
             background-color: $violet;
+            border-radius:  20px 20px 50px 50px ;
     
             .header {
-                background: url('../../images/icon-social.svg');
+                background: url('/src/images/icon-social.svg');
                 background-size: 79px 79px;
                 background-position-x: 160px;
                 background-repeat: no-repeat;
@@ -102,24 +177,55 @@
     
             }
             .content {
-    
-            }
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .content-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+
+                .content-detail {
+                  
+                    h2 {
+                        margin-top: 15px;
+                    }
+                }
+            }    
         }
     
         .selfcare {
             background-color: $softOrange;
+            border-radius:  20px 20px 50px 50px ;
     
             .header {
-                background: url('../../images/icon-self-care.svg');
+                background: url('/src/images/icon-self-care.svg');
                 background-size: 79px 79px;
                 background-position-x: 160px;
                 background-repeat: no-repeat;
                 background-position-y: -10px; 
     
             }
-            .content {
-    
-            }
+             .content {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .content-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+
+                .content-detail {
+                  
+                    h2 {
+                        margin-top: 15px;
+                    }
+                }
+            }    
         }
     }
 }
