@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.js": "/time-tracking-dashboard-main-react/static/js/main.120b9ca1.chunk.js",
-    "main.js.map": "/time-tracking-dashboard-main-react/static/js/main.120b9ca1.chunk.js.map",
+    "main.css": "/time-tracking-dashboard-main-react/static/css/main.a6041174.chunk.css",
+    "main.js": "/time-tracking-dashboard-main-react/static/js/main.f719bb87.chunk.js",
+    "main.js.map": "/time-tracking-dashboard-main-react/static/js/main.f719bb87.chunk.js.map",
     "runtime-main.js": "/time-tracking-dashboard-main-react/static/js/runtime-main.486fe433.js",
     "runtime-main.js.map": "/time-tracking-dashboard-main-react/static/js/runtime-main.486fe433.js.map",
-    "static/js/2.4914f00b.chunk.js": "/time-tracking-dashboard-main-react/static/js/2.4914f00b.chunk.js",
-    "static/js/2.4914f00b.chunk.js.map": "/time-tracking-dashboard-main-react/static/js/2.4914f00b.chunk.js.map",
+    "static/js/2.b60675a0.chunk.js": "/time-tracking-dashboard-main-react/static/js/2.b60675a0.chunk.js",
+    "static/js/2.b60675a0.chunk.js.map": "/time-tracking-dashboard-main-react/static/js/2.b60675a0.chunk.js.map",
     "index.html": "/time-tracking-dashboard-main-react/index.html",
-    "static/js/2.4914f00b.chunk.js.LICENSE.txt": "/time-tracking-dashboard-main-react/static/js/2.4914f00b.chunk.js.LICENSE.txt"
+    "static/css/main.a6041174.chunk.css.map": "/time-tracking-dashboard-main-react/static/css/main.a6041174.chunk.css.map",
+    "static/js/2.b60675a0.chunk.js.LICENSE.txt": "/time-tracking-dashboard-main-react/static/js/2.b60675a0.chunk.js.LICENSE.txt",
+    "static/media/icon-ellipsis.a57a4ac8.svg": "/time-tracking-dashboard-main-react/static/media/icon-ellipsis.a57a4ac8.svg",
+    "static/media/index.css": "/time-tracking-dashboard-main-react/static/media/icon-work.a3f124e5.svg",
+    "static/media/image-jeremy.71cd41f1.png": "/time-tracking-dashboard-main-react/static/media/image-jeremy.71cd41f1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.486fe433.js",
-    "static/js/2.4914f00b.chunk.js",
-    "static/js/main.120b9ca1.chunk.js"
+    "static/js/2.b60675a0.chunk.js",
+    "static/css/main.a6041174.chunk.css",
+    "static/js/main.f719bb87.chunk.js"
   ]
 }
